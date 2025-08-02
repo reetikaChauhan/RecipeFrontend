@@ -59,7 +59,7 @@ const Home = () => {
     
          <>
         <div className='top-head'>
-            <a href='#'>Find a Rental</a>
+            <a href='#'>Find a Recipe</a>
             <p>|</p>
             <a href='#'>Help</a>
             <p>|</p>
@@ -77,18 +77,9 @@ const Home = () => {
                     <a href='#'className='experiences'><h6>Experineces</h6></a>
                     <a href='#'className='onlineexperiences'><h6>Online Coach</h6></a>
                 </div>
-                <div className='logins'>
-                    <a href='#'className='byh'><h6>Start from scratch</h6></a>
-                    <a href='#'><span className="material-symbols-outlined">language</span></a>
-                </div>
             </div> 
             <div className='heading'>
                 <div className='head-text'> <h4>Learn About Delicious Recipes</h4></div>
-                <div className='cart' >
-                        <button ><span className="material-symbols-outlined">shopping_bag</span></button>
-                        <span className="cart-count">0 </span>
-                         
-                </div> 
             </div>  
         </div>
       <div className='rental-shoppingcart'>

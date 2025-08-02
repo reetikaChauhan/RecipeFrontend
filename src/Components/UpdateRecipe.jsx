@@ -164,9 +164,10 @@ const UpdateRecipe = () => {
                 className="form-control"
                 name="steps"
                 id="steps"
-                rows={5}
-                value={Array.isArray(recipe.steps) ? recipe.steps.join("\n") : ""} // assuming steps is an array
                 onChange={handleChange}
+                rows={5}
+                value={Array.isArray(updateRecipe.steps) ? updateRecipe.steps.join("\n") : ""} 
+                placeholder={recipe.steps}
             ></textarea>
           </div>
 

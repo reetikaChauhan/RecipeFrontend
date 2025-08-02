@@ -26,12 +26,12 @@ function Recipe({recipelist}){
                     </div>
                 </div>
                 <div className='location'>
-                    <p>Description: {description}</p>
+                    <p><b>Description:</b> {description}</p>
                 </div>
                 <div className='title'>
-                    <p>Servings: {servings}</p>
-                    <p>Prep Time : {prepTimeMin}</p>
-                    <p>Cooking Time: {cookTimeMin}</p>
+                    <p><b>Servings:</b> {servings}</p>
+                    <p><b>Prep Time :</b> {prepTimeMin}</p>
+                    <p><b>Cooking Time:</b> {cookTimeMin}</p>
                 </div> 
             </div>
             </Link>

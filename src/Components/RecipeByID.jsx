@@ -69,7 +69,7 @@ const RecipeById = () => {
           className="left-column-img"
           src={imageUrl}
           alt={recipe.imageName}
-          style={{ width: "50%", height: "auto" }}
+          style={{ width: "50%", height: "50%" }}
         />
 
         <div className="right-column" style={{ width: "50%" }}>
